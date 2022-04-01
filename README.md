@@ -33,7 +33,7 @@ Github Repo: https://github.com/xavier-hernandez/goaccess-for-traefik
 
 ```yml
 goaccess:
-    image: xavierh/goaccess-for-traefik:latest
+    image: xavierh/goaccess-for-traefik:develop
     container_name: goaccess-traefik
     restart: always
     environment:
@@ -50,7 +50,7 @@ goaccess:
 If you have permission issues, you can add PUID and PGID with the correct user id that has read access to the log files.
 ```yml
 goaccess:
-    image: xavierh/goaccess-for-traefik:latest
+    image: xavierh/goaccess-for-traefik:develop
     container_name: goaccess-traefik
     restart: always
     volumes:
